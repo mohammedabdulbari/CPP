@@ -17,9 +17,9 @@ int main()
 			return 0;
 		}
 		else if(key<A[mid])
-			h=mid-l;
+			h=mid-1;  //1 
 		else
-			l=mid+l;
+			l=mid+1;  //1
 	}
 	    
 	cout<<"Not Found";
